@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="winnnk-video-common" />
+        <module name="winnnk-video-mapper" />
+        <module name="winnnk-video-mini-api" />
+        <module name="winnnk-video-pojo" />
+        <module name="winnnk-video-service" />
+        <module name="winnnkvideocommon" />
+        <module name="winnnkvideomapper" />
+        <module name="winnnkvideominiapi" />
+        <module name="winnnkvideopojo" />
+        <module name="winnnkvideoservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-generatorConfig" target="1.5" />
+      <module name="mybatisgeneratorConfig" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatisgeneratorConfig" options="" />
+      <module name="winnnkvideocommon" options="" />
+      <module name="winnnkvideomapper" options="" />
+      <module name="winnnkvideominiapi" options="" />
+      <module name="winnnkvideopojo" options="" />
+      <module name="winnnkvideoservice" options="" />
+    </option>
+  </component>
+</project>

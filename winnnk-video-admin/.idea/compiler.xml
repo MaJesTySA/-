@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="winnnk-video-admin-common" />
+        <module name="winnnk-video-admin-mapper" />
+        <module name="winnnk-video-admin-pojo" />
+        <module name="winnnk-video-admin-service" />
+        <module name="winnnk-video-admin-web" />
+        <module name="winnnkvideoadmincommon" />
+        <module name="winnnkvideoadminmapper" />
+        <module name="winnnkvideoadminpojo" />
+        <module name="winnnkvideoadminservice" />
+        <module name="winnnkvideoadminweb" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
