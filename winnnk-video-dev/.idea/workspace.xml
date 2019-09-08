@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bce5304-e44b-4572-9f8a-74914bae866a" name="Default Changelist" comment="" />
+    <list default="true" id="0bce5304-e44b-4572-9f8a-74914bae866a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/enums/BGMOperatorTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/enums/BGMOperatorTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/enums/VideoStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/enums/VideoStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/utils/JSONResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/utils/JSONResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/utils/PagedResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-common/src/main/java/person/sa/utils/PagedResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/BgmMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/BgmMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/UsersReportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/UsersReportMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/UsersReportMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/UsersReportMapperCustom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/VideosMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-mapper/src/main/java/person/sa/mapper/VideosMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-pojo/src/main/java/person/sa/pojo/vo/Reports.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-pojo/src/main/java/person/sa/pojo/vo/Reports.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/service/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/web/util/ZKCurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-service/src/main/java/person/sa/web/util/ZKCurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/java/person/sa/bean/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/java/person/sa/bean/AdminUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/java/person/sa/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/java/person/sa/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/java/person/sa/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/java/person/sa/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/java/person/sa/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/java/person/sa/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/resources/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/resources/resource/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/resources/resource/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/webapp/WEB-INF/center/common/commonFooterJS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../winnnk-video-admin/winnnk-video-admin-web/src/main/webapp/WEB-INF/center/common/commonFooterJS.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/winnnk-video-common/target/" />
@@ -69,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/winnnk-video-service/src/main/java/com/inside/service/VideoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -493,7 +519,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567947940282" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567948485247" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -662,12 +688,12 @@
       <workItem from="1567303551082" duration="34000" />
       <workItem from="1567304176214" duration="870000" />
       <workItem from="1567308237457" duration="911000" />
-      <workItem from="1567946976256" duration="947000" />
+      <workItem from="1567946976256" duration="1490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202130000" />
+    <option name="totallyTimeSpent" value="202673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,7 +705,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.14605543" />
@@ -1141,8 +1167,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/winnnk-video-service/src/main/java/com/inside/service/VideoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>

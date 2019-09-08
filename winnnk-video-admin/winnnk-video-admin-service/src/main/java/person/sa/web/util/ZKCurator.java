@@ -43,7 +43,7 @@ public class ZKCurator {
             client.create().creatingParentsIfNeeded().
                     withMode(CreateMode.PERSISTENT).
                     withACL(ZooDefs.Ids.OPEN_ACL_UNSAFE).
-                    forPath("/bgm/" + bgmId,optObj.getBytes());
+                    forPath("/bgm/" + bgmId, optObj.getBytes());
         } catch (Exception e) {
             e.printStackTrace();
         }

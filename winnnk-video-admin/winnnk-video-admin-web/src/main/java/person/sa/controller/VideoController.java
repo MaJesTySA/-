@@ -28,19 +28,19 @@ public class VideoController {
     private VideoService videoService;
 
     @GetMapping("/showAddBgm")
-    public String showAddBgm(){
+    public String showAddBgm() {
         return "video/addBgm";
     }
 
     @GetMapping("/showBgmList")
-    public String showBgmList(){
+    public String showBgmList() {
         return "video/bgmList";
     }
 
     @PostMapping("/queryBgmList")
     @ResponseBody
-    public PagedResult queryBgmList(Integer page){
-        return videoService.queryBgmList(page,10);
+    public PagedResult queryBgmList(Integer page) {
+        return videoService.queryBgmList(page, 10);
     }
 
     @GetMapping("/showReportList")
@@ -64,7 +64,7 @@ public class VideoController {
 
     @PostMapping("/delBgm")
     @ResponseBody
-    public JSONResult delBgm(String bgmId){
+    public JSONResult delBgm(String bgmId) {
         videoService.deleteBmg(bgmId);
         return JSONResult.ok();
     }
@@ -76,7 +76,7 @@ public class VideoController {
 //		String fileSpace = File.separator + "imooc_videos_dev" + File.separator + "mvc-bgm";
 //		String fileSpace = "C:" + File.separator + "imooc_videos_dev" + File.separator + "mvc-bgm";
         // 保存到数据库中的相对路径
-       // String uploadPathDB = File.separator + "bgm";
+        // String uploadPathDB = File.separator + "bgm";
         String uploadPathDB = "/bgm";
 
         FileOutputStream fileOutputStream = null;
@@ -91,7 +91,7 @@ public class VideoController {
                     // C:\\projects\\winnnkvideo\\mvc-bgm/bgm/music.mp3
                     String finalPath = FILE_SPACE + uploadPathDB + "/" + fileName;
                     // 设置数据库保存的路径
-                   // uploadPathDB += (File.separator + fileName);
+                    // uploadPathDB += (File.separator + fileName);
                     // /bgm/music.mp3
                     uploadPathDB += ("/" + fileName);
 
@@ -120,10 +120,11 @@ public class VideoController {
         }
         return JSONResult.ok(uploadPathDB);
     }
+
     //这里没有Transactional事物，因为已经被切面切到了，添加了事物
     @PostMapping("/addBgm")
     @ResponseBody
-    public JSONResult addBgm(Bgm bgm){
+    public JSONResult addBgm(Bgm bgm) {
         videoService.addBgm(bgm);
         return JSONResult.ok();
     }

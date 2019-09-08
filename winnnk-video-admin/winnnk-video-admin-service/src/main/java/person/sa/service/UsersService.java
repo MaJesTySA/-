@@ -5,6 +5,6 @@ import person.sa.utils.PagedResult;
 
 public interface UsersService {
 
-	public PagedResult queryUsers(Users user, Integer page, Integer pageSize);
-	
+    PagedResult queryUsers(Users user, Integer page, Integer pageSize);
+
 }

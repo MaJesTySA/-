@@ -5,7 +5,9 @@ import person.sa.utils.PagedResult;
 
 public interface VideoService {
     void addBgm(Bgm bgm);
-    PagedResult queryBgmList(Integer page,Integer pageSize);
+
+    PagedResult queryBgmList(Integer page, Integer pageSize);
+
     void deleteBmg(String id);
 
     PagedResult queryReportList(Integer page, int i);

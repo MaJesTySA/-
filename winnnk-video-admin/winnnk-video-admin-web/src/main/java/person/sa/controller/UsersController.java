@@ -35,7 +35,7 @@ public class UsersController {
                                 HttpServletRequest request, HttpServletResponse response) {
         if (StringUtils.isBlank(username) || StringUtils.isBlank(password)) {
             return JSONResult.errorMap("用户名和密码不能为空");
-        } else if (username.equals("admin") && password.equals("z55182182")) {
+        } else if (username.equals("admin") && password.equals("admin")) {
             String token = UUID.randomUUID().toString();
             AdminUser user = new AdminUser(username, password, token);
             request.getSession().setAttribute("sessionUser", user);
@@ -57,7 +57,7 @@ public class UsersController {
 
     @PostMapping("/list")
     @ResponseBody
-    public PagedResult list(Users user , Integer page) {
+    public PagedResult list(Users user, Integer page) {
         return usersService.queryUsers(user, page == null ? 1 : page, 10);
     }
 }

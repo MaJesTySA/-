@@ -43,12 +43,12 @@ public class VideoServiceImpl implements VideoService {
 
     @Override
     public void addBgm(Bgm bgm) {
-        String bgmId=sid.nextShort();
+        String bgmId = sid.nextShort();
         bgm.setId(bgmId);
         bgmMapper.insert(bgm);
-        Map<String,String> map=new HashMap<>();
-        map.put("optType",BGMOperatorTypeEnum.ADD.type);
-        map.put("path",bgm.getPath());
+        Map<String, String> map = new HashMap<>();
+        map.put("optType", BGMOperatorTypeEnum.ADD.type);
+        map.put("path", bgm.getPath());
         zkCurator.sendBgmOperator(bgmId, JsonUtils.objectToJson(map));
     }
 
@@ -68,18 +68,18 @@ public class VideoServiceImpl implements VideoService {
 
     @Override
     public void deleteBmg(String id) {
-        Bgm bgm=bgmMapper.selectByPrimaryKey(id);
+        Bgm bgm = bgmMapper.selectByPrimaryKey(id);
         //删除本地音频
-        File file=new File(FILE_SPACE+bgm.getPath());
+        File file = new File(FILE_SPACE + bgm.getPath());
         try {
             FileUtils.forceDelete(file);
         } catch (IOException e) {
             e.printStackTrace();
         }
         bgmMapper.deleteByPrimaryKey(id);
-        Map<String,String> map=new HashMap<>();
-        map.put("optType",BGMOperatorTypeEnum.DELETE.type);
-        map.put("path",bgm.getPath());
+        Map<String, String> map = new HashMap<>();
+        map.put("optType", BGMOperatorTypeEnum.DELETE.type);
+        map.put("path", bgm.getPath());
         zkCurator.sendBgmOperator(id, JsonUtils.objectToJson(map));
 
     }
